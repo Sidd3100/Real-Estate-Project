@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey:"AIzaSyATK6Sc83pjbMv-zxUxWtZee7IVyJT59ek",
+  apiKey:process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "mern-sketchsymphony.firebaseapp.com",
   projectId: "mern-sketchsymphony",
   storageBucket: "mern-sketchsymphony.appspot.com",
